@@ -1,12 +1,25 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="5e4aed34-61a9-3766-9eb7-b13838373f55" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="BlockingMethodInNonBlockingContext" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myBlockingAnnotations">
         <list>
           <option value="org.jetbrains.annotations.Blocking" />
         </list>
       </option>
+    </inspection_tool>
+    <inspection_tool class="MustAlreadyBeRemovedApi" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <searchConfiguration name="Mono&lt;Void&gt; flatMap is ignored" text="$Instance$.$MethodCall$($Parameter$)" recursive="false" caseInsensitive="false" type="Kotlin" pattern_context="default" search_injected="false">
+        <constraint name="__context__" within="" contains="" />
+        <constraint name="Instance" nameOfExprType="reactor\.core\.publisher\.Mono&lt;Void&gt;" within="" contains="" />
+        <constraint name="MethodCall" within="" contains="" />
+        <constraint name="Parameter" within="" contains="" />
+      </searchConfiguration>
+    </inspection_tool>
+    <inspection_tool class="SqlResolveInspection" enabled="true" level="ERROR" enabled_by_default="true">
+      <scope name="DB Migrations" level="WEAK WARNING" enabled="true" />
     </inspection_tool>
   </profile>
 </component>

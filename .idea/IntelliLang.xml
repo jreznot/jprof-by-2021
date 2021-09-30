@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JSON" injector-id="java">
+      <display-name>SalesService.findSale (org.jetbrains.gentlewerewolf)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("findSale").withParameters("org.jetbrains.gentlewerewolf.User", "java.lang.String").definedInClass("org.jetbrains.gentlewerewolf.SalesService"))]]></place>
+    </injection>
+  </component>
+</project>

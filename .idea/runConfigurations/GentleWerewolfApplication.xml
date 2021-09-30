@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GentleWerewolfApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="gentle-werewolf.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="org.jetbrains.gentlewerewolf.GentleWerewolfApplication" />
+    <option name="DEBUG_MODE" value="true" />
+    <option name="HIDE_BANNER" value="true" />
+    <option name="VM_PARAMETERS" value="-Dreactor.debug=true" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,5 +1,6 @@
 package org.jetbrains.gentlewerewolf;
 
+import org.intellij.lang.annotations.Language;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -20,7 +21,8 @@ public class SalesService {
         return findFirst(user, jsonData);
     }
 
-    private Product findFirst(User user, String data) {
+    @Nullable
+    private Product findFirst(User user, @Language("json") String data) {
         return null;
     }
 

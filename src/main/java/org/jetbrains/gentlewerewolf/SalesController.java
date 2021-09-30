@@ -15,6 +15,6 @@ public class SalesController {
 
     @GetMapping
     public String find() {
-        return salesService.findSale(null, "{ 'priority': 10 }").getId().toString();
+        return salesService.findSale(null, "{ \"priority\": 10 }").getId().toString();
     }
 }
