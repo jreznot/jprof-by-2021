@@ -28,6 +28,11 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter-gateway")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("io.projectreactor:reactor-test")
+
+    compileOnly("org.jetbrains:annotations:22.0.0")
+
+    implementation("io.r2dbc:r2dbc-postgresql")
+    implementation("org.springframework.data:spring-data-jdbc")
 }
 
 dependencyManagement {

@@ -1,0 +1,12 @@
+# Query data from DuckDuckGo by query = hello
+GET http://localhost:8080/api/proxy/?q=hello
+User-Agent: Gentle Werewolf
+Accept: text/html
+
+###
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+  "price": 100500
+}

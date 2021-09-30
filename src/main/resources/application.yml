@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Gentle Werewolf
+  r2dbc:
+    url: 'r2dbc:postgresql://localhost:5432/demo'
+    username: 'postgres'
+    password: 'demo'
+
+wereworlf:
+  url: 'http://localhost:8080'

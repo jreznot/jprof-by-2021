@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  # RDBMS for metadata, security and settings
+  postgresql:
+    image: postgres:13.2
+    volumes:
+      - ./data/postgresql:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=demo
+      - POSTGRES_DB=demo
